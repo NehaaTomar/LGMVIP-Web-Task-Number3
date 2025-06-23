@@ -1,15 +1,37 @@
 function fun() {
-  var a = [];
-  var b = $("#Firstname").val();
-  var c = $("#enteremail").val();
-  var d = $("#phone").val();
-  var e =$("#photos").val();
-  var f = $('input[name="genders"]:checked').val();;
-  var selected = new Array();
+  const name = $("#name").val();
+  const email = $("#email").val();
+  const phone = $("#phn").val();
+  const image = $("#photo").val();
+  const gender = $('input[name="gender"]:checked').val();
+
+  const skills = [];
   $("input[type=checkbox]:checked").each(function () {
-      selected.push(this.value);
+    skills.push($(this).val());
   });
-  var x = '<div class=s1>'+'<table><tr><td><p class="p"><strong>Name </strong>:'+`${b}`+'</p><p class="p"><strong>Email </strong>: '+`${c}`+'</p><p class="p"><strong>Phone </strong>:'+`${d}`+'</p><p class="p"><strong>Gender</strong> : '+`${f}`+'</p><p class="p"><strong>Skills</strong> : '+`${selected}`+'<td><img src="'+`${e}`+'"></td></tr></table></div>';
-  $('#ss').append(x);
+
+  if (!name || !email || !phone || !image || !gender || skills.length === 0) {
+    alert("Please fill out all fields.");
+    return;
+  }
+
+  const studentCard = `
+    <div class="s1">
+      <table>
+        <tr>
+          <td>
+            <p><strong>Name:</strong> ${name}</p>
+            <p><strong>Email:</strong> ${email}</p>
+            <p><strong>Phone:</strong> ${phone}</p>
+            <p><strong>Gender:</strong> ${gender}</p>
+            <p><strong>Skills:</strong> ${skills.join(", ")}</p>
+          </td>
+          <td><img src="${image}" width="100" height="100" /></td>
+        </tr>
+      </table>
+    </div>
+  `;
+
+  $("#ss").append(studentCard);
   $("#fo").trigger("reset");
 }
