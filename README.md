@@ -1,26 +1,42 @@
-# LGMVIP-Web-Task-Number3
-#Registration Form Application
+# 🧾 Registration Form Application  
+### 👩‍💻 LGMVIP Web Development Task – 3
 
-This is a straightforward JavaScript, HTML, and CSS registration form application.
+A responsive and user-friendly **Registration Form** built with **HTML, CSS, and JavaScript**.  
+It validates inputs like name, email, password strength, and more — with clear error messages and a mobile-ready design.
 
-## Features
+🌐 **Live Demo**: [Click to Try Form](https://nehaatomar.github.io/LGMVIP-Web-Task-Number3/)
 
-- Enter data in the fields provided for user registration, including name, email, password, etc.
-- Verification of mandatory fields, email format, password strength, and other aspects.
-- When an input is invalid, error messages are shown.
-- Design that adapts to different screen sizes.
+---
 
-## How to Apply
+## 📸 Preview
 
-1. Use `git clone https://github.com/your-username/registration-form.git` to clone the repository.
-2. Launch the webpage `index.html` in your browser.
-
-## Application
-
-- Enter your information in the fields on the registration form.
-- Error warnings will appear if any input is invalid.
-- Submit the form once all the entries are correct.
-- Depending on how it's implemented, you can get a confirmation message or be sent to a different page.
+![Registration Form Screenshot](https://user-images.githubusercontent.com/00000000/00000000-00000000-0000-000000000000.png)  
 
 
+---
 
+## ✅ Features
+
+- ✍️ Name, Email, Password & Gender input fields
+- 🔒 Password strength & format validation
+- ⚠️ Real-time error messages for invalid input
+- 📱 Responsive layout for all screen sizes
+- ✅ Clean UI with intuitive experience
+
+---
+
+## 🛠️ Tech Stack
+
+| HTML5 | CSS3 | JavaScript |
+|:-----:|:----:|:----------:|
+| 🧱    | 🎨   | ⚙️         |
+
+---
+
+## 🚀 Getting Started
+
+To run the app locally:
+
+```bash
+git clone https://github.com/NehaaTomar/LGMVIP-Web-Task-Number3.git
+cd LGMVIP-Web-Task-Number3
