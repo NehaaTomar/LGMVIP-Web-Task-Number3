@@ -10,7 +10,7 @@ It validates inputs like name, email, password strength, and more — with clear
 
 ## 📸 Preview
 
-![Registration Form Screenshot](https://user-images.githubusercontent.com/00000000/00000000-00000000-0000-000000000000.png)  
+![Registration Form Screenshot](Registration.jpg)  
 
 
 ---
